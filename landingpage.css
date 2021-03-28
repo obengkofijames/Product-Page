@@ -1,0 +1,801 @@
+body{
+	background-color: lightgrey;
+}
+#header{
+
+}
+
+:root{
+	--colorpink:pink;
+	--colorblack:black;
+}
+#navbar{
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	color: lightgrey;
+	font-size: 30px;
+	border-radius: 5px;
+}
+
+:root{
+	--linkmargin:0 0 0 500px;
+}
+p a:first-child{
+	margin: var(--linkmargin)
+}
+
+p a{
+	margin: 0 30px 0 30px;
+	color:lightgrey;
+}
+
+p{
+	text-transform: capitalize;
+}
+
+h5{
+	font-size: 30px;
+}
+
+#griddiv{
+	margin:50px 0 0 50px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 400px 400px 400px ;
+	grid-template-rows: 400px;
+	grid-gap: 20px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+.first{
+	background-color:var(--colorpink);
+	text-transform: capitalize;
+}
+.second{
+	background-color:var(--colorpink);
+	text-transform: capitalize;
+}
+.third{
+	background-color:var(--colorpink);
+	text-transform: capitalize;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	margin-top: 30px;
+}
+
+embed{
+	width: 700px;
+	height: 400px;
+	margin-top:200px;
+	margin-bottom: 100px;
+	padding: 0 0 0 300px;
+}
+
+#griddiv2{
+	margin:50px 0 0 130px;
+}
+
+.container2{
+	display: grid;
+	grid-template-columns: 350px 350px 350px ;
+	grid-template-rows: 350px;
+	grid-gap: 20px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.one{
+     border: 1px solid var(--colorblack);
+     text-transform:capitalize;
+}
+
+.two{
+    border: 1px solid var(--colorblack);
+    text-transform:capitalize;
+}
+
+.three{
+      border: 1px solid var(--colorblack);
+      text-transform:capitalize;
+}
+
+.pricing{
+	font-size: 35px;
+	margin-top: 15px;
+}
+
+.div1{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.div2{
+	font-size:20px;
+	margin-top: 20px;
+}
+
+.div3{
+	font-size:20px;
+	margin-top: 20px;
+}
+
+.div4{
+	font-size:20px;
+	margin-top: 20px;
+}
+
+#buttondiv{
+	margin-top: 15px;
+}
+
+.button{
+	background-color: yellow;
+	padding: 3px 20px 3px 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+form{
+	padding:130px 0 100px 500px;
+}
+
+#formdiv{
+	padding:20px;
+}
+
+#formdiv2{
+	padding: 0 20px 20px 90px;
+}
+
+input{
+	border-radius: 5px;
+}
+
+input[type="email"]{
+	padding:10px 40px 10px 40px;
+	font-size: 20px;
+}
+
+footer{
+	background-color: grey;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 700px;
+}
+.footdiv{
+	padding:0 70px 0 70px ;
+}
+
+/*screen with a max-width:1200px and min-width:1000px*/
+@media screen and (max-width: 1200px) and (min-width: 1000px){
+	#navbar{
+		font-size:25px ;
+	}
+
+	:root{
+	--linkmargin:0 0 0 250px;
+}
+
+#griddiv{
+	margin:70px 0 0 0;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 300px 300px 300px ;
+	grid-template-rows: 300px;
+	grid-gap: 20px;
+	font-size: 20px;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	margin-top: 10px;
+}
+
+embed{
+	width: 700px;
+	height: 400px;
+	margin-top:200px;
+	margin-bottom: 100px;
+	padding: 0 0 0 100px;
+}
+
+#griddiv2{
+	margin:50px 0 0 50px;
+}
+
+.container2{
+	display: grid;
+	grid-template-columns: 270px 270px 270px ;
+	grid-template-rows: 350px;
+}
+
+form{
+	padding:130px 0 100px 300px;
+}
+
+footer{
+	padding-left: 500px;
+}
+
+}
+
+/*screen with (max-width:"999px") and (min-width:"900px")*/
+@media screen and ( max-width:999px) and (min-width:900px){
+	p a{
+		color:lightgrey;
+		margin: 0 15px 0 15px;
+		font-size: 25px;
+	}
+
+	:root{
+	--linkmargin:0 0 0 200px;
+}
+
+#griddiv{
+	margin:70px 0 0 50px;
+}
+.container{
+	display: grid;
+	grid-template-columns: 400px 400px ;
+	grid-template-rows: 400px 400px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+}
+
+.container2{
+	display: grid;
+	grid-template-columns: 350px 350px;
+	grid-template-rows: 350px 350px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+embed{
+	width: 700px;
+	height: 400px;
+	margin-top:200px;
+	margin-bottom: 100px;
+	padding: 0 0 0 150px;
+}
+
+form{
+	padding:110px 0 100px 230px;
+}
+
+footer{
+	padding-left: 300px;
+}
+
+
+} 
+
+/*screen with (max-width:"899px") and (min-width:"780px")*/
+@media screen and ( max-width:899px) and (min-width:780px){
+	p a{
+		color:lightgrey;
+		margin: 0 15px 0 15px;
+		font-size: 25px;
+	}
+
+	:root{
+	--linkmargin:0 0 0 200px;
+}
+
+#griddiv{
+	margin:70px 0 0 2px;
+}
+.container{
+	display: grid;
+	grid-template-columns: 350px 350px ;
+	grid-template-rows: 400px 400px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+}
+
+#intrested2{
+	padding-left: 500px;
+}
+
+#griddiv2{
+	margin:50px 0 0 30px;
+}
+
+.container2{
+	display: grid;
+	grid-template-columns: 350px 350px;
+	grid-template-rows: 350px 350px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+embed{
+	width: 690px;
+	height: 400px;
+	margin-top:200px;
+	margin-bottom: 100px;
+	padding: 0 0 0 30px;
+}
+
+form{
+	padding:110px 0 100px 230px;
+}
+
+footer{
+	padding-left: 200px;
+}
+
+
+}
+
+/*screen with (max-width:779px) and (min-width:660px)*/
+@media screen and ( max-width:779px) and (min-width:660px){
+	p a{
+		color:lightgrey;
+		margin: 0 15px 0 15px;
+		font-size: 25px;
+	}
+
+	:root{
+	--linkmargin:0 0 0 300px;
+}
+
+#works2{
+	padding-left: 300px;
+}
+
+#griddiv{
+	margin:70px 0 0 2px;
+}
+.container{
+	display: grid;
+	grid-template-columns: 300px 300px ;
+	grid-template-rows: 300px 300px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+}
+
+#intrested2{
+	padding-left:0;
+}
+
+
+#griddiv2{
+	margin:50px 0 0 0;
+}
+
+.container2{
+	display: grid;
+	grid-template-columns: 300px 300px;
+	grid-template-rows: 350px 350px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+embed{
+	width: 600px;
+	height: 400px;
+	margin-top:200px;
+	margin-bottom: 100px;
+	padding: 0 0 0 10px;
+}
+
+
+form{
+	padding:110px 0 100px 230px;
+}
+
+footer{
+	padding-left: 100px;
+}
+.footdiv{
+		padding:0;
+}
+
+
+}
+
+/*screen with (max-width:659px) and (min-width:647px)*/
+@media screen and ( max-width:659px) and (min-width:647px){
+      	p a{
+		color:red;
+		margin: 0 15px 0 15px;
+		font-size: 25px;
+	}
+
+	:root{
+	--linkmargin:0 0 0 100px;
+}
+
+	#works2{
+	padding-left:200px;
+}
+
+#griddiv{
+	margin:70px 0 0 2px;
+}
+.container{
+	display: grid;
+	grid-template-columns: 300px 300px ;
+	grid-template-rows: 300px 300px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+}
+
+#intrested2{
+	padding-left:0;
+}
+
+         #griddiv2{
+	margin:50px 0 0 0;
+}
+
+.container2{
+	display: grid;
+	grid-template-columns: 300px 300px;
+	grid-template-rows: 350px 350px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+	embed{
+	width: 600px;
+	height: 400px;
+	margin-top:200px;
+	margin-bottom: 100px;
+	padding: 0 0 0 10px;
+}
+
+
+form{
+	padding:110px 0 100px 230px;
+}
+
+footer{
+	padding-left: 100px;
+}
+.footdiv{
+		padding:0;
+}
+
+
+
+}
+
+/*screen with (max-width:646px) and (min-width:500px)*/
+@media screen and ( max-width:646px) and (min-width:500px){
+	#navbar{
+		font-size: 25px;
+	}
+      	p a{
+		color:red;
+		margin: 0 15px 0 15px;
+		font-size: 20px;
+	}
+
+	:root{
+	--linkmargin:0 0 0 20px;
+}   
+
+	#works2{
+	padding-left:0;
+}
+
+#griddiv{
+	margin:70px 0 0 50px;
+}
+.container{
+	display: grid;
+	grid-template-columns: 400px;
+	grid-template-rows: 400px 400px 400px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+}
+
+#intrested2{
+	padding-left:0;
+}
+
+         #griddiv2{
+	margin:50px 0 0 50;
+}
+
+.container2{
+	display: grid;
+	grid-template-columns: 300px;
+	grid-template-rows: 350px 350px 350px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+	embed{
+	width: 430px;
+	height: 300px;
+	margin-top:200px;
+	margin-bottom: 100px;
+	padding: 0 0 0 30px;
+}
+
+form{
+	padding:110px 0 100px 100px;
+}
+
+footer{
+	padding-left: 80px;
+}
+.footdiv{
+		padding:0;
+}
+
+}
+
+/*screens with (max-width:499px;) and (min-width:400;)*/
+@media screen and (max-width: 499px) and (min-width: 446px){
+	#navbar{
+		font-size: 20px;
+	}
+      	p a{
+		color:pink;
+		margin: 0 15px 0 15px;
+		font-size: 20px;
+	}
+
+	:root{
+	--linkmargin:0 0 0 20px;
+}   
+
+	#works2{
+	padding-left:0;
+}
+
+#griddiv{
+	margin:70px 0 0 10px;
+}
+.container{
+	display: grid;
+	grid-template-columns: 390px;
+	grid-template-rows: 400px 400px 400px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+}
+
+#intrested2{
+	padding-left:0;
+}
+
+         #griddiv2{
+	margin:50px 0 0 15px;
+}
+
+.container2{
+	display: grid;
+	grid-template-columns: 300px;
+	grid-template-rows: 350px 350px 350px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+	embed{
+	width: 400px;
+	height: 300px;
+	margin-top:200px;
+	margin-bottom: 100px;
+	padding: 0 0 0 10px;
+}
+
+form{
+	padding:110px 0 100px 60px;
+}
+
+footer{
+	padding-left: 30px;
+}
+.footdiv{
+		padding:0;
+}
+}
+
+/*screens with (max-width:445px) and (min-width:390px)*/
+@media screen and (max-width: 445px) and (min-width: 390px){
+	#navbar{
+		font-size: 20px;
+	}
+      	p a{
+		color:pink;
+		margin: 0 15px 0 15px;
+		font-size: 20px;
+	}
+
+	:root{
+	--linkmargin:0 0 0 10px;
+}   
+
+	#works2{
+	padding-left:100px;
+}
+
+#griddiv{
+	margin:70px 0 0 10px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 350px;
+	grid-template-rows: 350px 350px 350px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+}
+:root{
+	--colorpink:white;
+}
+
+#intrested2{
+	padding-left:0;
+}
+
+         #griddiv2{
+	margin:50px 0 0 15px;
+}
+
+.container2{
+	display: grid;
+	grid-template-columns: 300px;
+	grid-template-rows: 350px 350px 350px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+	embed{
+	width:350px;
+	height: 250px;
+	margin-top:170px;
+	margin-bottom: 100px;
+	padding: 0 0 0 10px;
+}
+
+form{
+	padding:100px 0 100px 10px;
+}
+
+footer{
+	padding-left: 30px;
+}
+.footdiv{
+		padding:0;
+}
+}
+
+
+
+/*screen with (max-width:389px) and (min-width:300px)*/
+@media screen and (max-width: 389px) and (min-width: 300px){
+  #navbar{
+		font-size: 20px;
+	}
+      	p a{
+		color:orange;
+		margin: 0 15px 0 15px;
+		font-size: 20px;
+	}
+
+	:root{
+	--linkmargin:0 0 0 10px;
+}   
+
+	#works2{
+	padding-left:120px;
+}
+
+#griddiv{
+	margin:70px 0 0 0;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 250px;
+	grid-template-rows: 300px 250px 300px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+}
+:root{
+	--colorpink:pink;
+}
+
+#intrested2{
+	padding-left:120px;
+}
+
+         #griddiv2{
+	margin:50px 0 0 0;
+}
+
+.container2{
+	display: grid;
+	grid-template-columns: 250px;
+	grid-template-rows: 350px 350px 350px;
+	grid-column-gap:20px;
+	grid-row-gap: 100px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+img{
+	width: 250px;
+	height: 250px;
+	margin-top: 5px;
+}
+
+	embed{
+	width:250px;
+	height: 250px;
+	margin-top:170px;
+	margin-bottom: 100px;
+	padding: 0 0 0 0;
+}
+
+form{
+	padding:100px 0 100px 0;
+}
+
+.button{
+	font-size: 15px;
+}
+
+input[type="email"]{
+	font-size: 15px;
+}
+
+#formdiv{
+	padding:20px 20px 20px 10px;
+}
+
+
+footer{
+	padding-left: 10px;
+}
+.footdiv{
+		padding:0;
+}
+}
+
